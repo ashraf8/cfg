@@ -25,3 +25,5 @@ alias listen="lsof -P -i -n"
 
 #get public ip address
 alias ipinfo="curl ifconfig.me"
+
+PS1='\n\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\w(\u@\h)\nλ '

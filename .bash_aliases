@@ -27,4 +27,5 @@ alias listen="lsof -P -i -n"
 alias ipinfo="curl ifconfig.me"
 
 #PS1='\n\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\w(\u@\h)\nλ '
-PS1='\n\e[0;33m\]\u\[\e[0m\]\e[0;32m\]@\[\e[0m\]\e[0;31m\]\h\[\e[0m\]: \e[0;36m\]\w\[\e[0m\]\a${debian_chroot:+($debian_chroot)}\n\e[0;35m\]λ\[\e[0m\] '
+#PS1='\n\e[0;33m\]\u\[\e[0m\]\e[0;32m\]@\[\e[0m\]\e[0;31m\]\h\[\e[0m\]: \e[0;36m\]\w\[\e[0m\]\a${debian_chroot:+($debian_chroot)}\n\e[0;35m\]λ\[\e[0m\] '
+PS1="\[\e[00;33m\]\n\[\e[0m\]\[\e[00;33m\]\u\[\e[0m\]\[\e[00;32m\]@\[\e[0m\]\[\e[00;31m\]\h\[\e[0m\]\[\e[00;32m\]: \[\e[0m\]\[\e[00;36m\]\w\[\e[0m\]\[\e[00;33m\]\n\[\e[0m\]\[\e[00;35m\]λ \[\e[0m\]"

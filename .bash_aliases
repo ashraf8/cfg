@@ -1,5 +1,5 @@
 alias ll='ls -alFh'
-alias ls='ls --color=always -FC'
+alias ls='ls --color=always -FCX'
 alias la='ls -la'
 alias grep="grep --color"
 #make dir and cd into it

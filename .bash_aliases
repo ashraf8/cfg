@@ -1,6 +1,7 @@
 alias ll='ls -alFh'
 alias ls='ls --color=always -FCX'
 alias la='ls -la'
+alias lt='ls -tr'
 alias grep="grep --color"
 #make dir and cd into it
 mcd(){ mkdir -p "$1"; cd "$1";}
